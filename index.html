@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="appName">
+  <head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,300,600" type="text/css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+  </head>
+  <body><a href="#/home" class="lead">
+      <h1>Hunter & Thompson</h1>
+      <p>Boutique Executive Search</p></a>
+    <div class="nav"><a href="#/home">Home</a><a href="#/about">About</a><a href="#/services">Services</a><a href="#/testemonials">Testemonials</a></div>
+    <main ui-view></main>
+    <p class="footer">© 2003 by Hunter & Thompson. Created with love by AK + Social networks</p>
+    <script src="js/MainController.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+  </body>
+</html>
