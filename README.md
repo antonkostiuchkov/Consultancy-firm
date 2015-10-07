@@ -1,2 +1,3 @@
-# Consultancy-firm
-A Simple Website for Consultancy Firm
+A simple website for consultancy firm.
+
+Practice using angular-ui-router.

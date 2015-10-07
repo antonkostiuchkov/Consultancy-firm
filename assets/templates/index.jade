@@ -1,0 +1,46 @@
+doctype html
+html(lang="en" ng-app="appName")
+	head
+		//- Basic Page Needs
+		meta(charset="utf-8")
+		title Website
+		meta(name="description", content="")
+		meta(name="author" content="")
+
+		//- Mobile Specific Metas
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+		//- Font
+		link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Raleway:400,300,600" type="text/css")
+
+		//- CSS
+		link(rel='stylesheet', href='main.css')
+
+		//- Favicon
+		link(rel="icon", type="image/png", href="./img/favicon.png")
+
+		//- Angular
+		script(src="js/angular.min.js")
+		script(src="js/angular-ui-router.min.js")
+
+	body
+		a(href="#/home").lead
+			h1 Hunter & Thompson
+			p Boutique Executive Search
+
+		.nav
+			a(href="#/home") Home
+			a(href="#/about") About
+			a(href="#/services") Services
+			a(href="#/testemonials") Testemonials
+
+
+		main(ui-view)
+
+		p.footer © 2003 by Hunter & Thompson. Created with love by AK + Social networks
+
+
+		script(src="js/MainController.js")
+		script(src="js/jquery-2.1.4.min.js")
+
